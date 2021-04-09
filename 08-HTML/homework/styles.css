@@ -13,9 +13,28 @@ img {
     background-color: darkseagreen;
     padding: 50px;
     border: 10px solid plum;
+    margin: 50px;
 }
 
 #spanId {
     font-size: 18px;
     margin: 50px;
+}
+.parent {
+    border: 2px black dotted;
+    display: inline-block;
+}
+
+.box {
+    display: inline-block;
+    background: red;
+    width: 100px;
+    height: 100px;
+}
+
+#two {
+    top: 20px;
+    left: 20px;
+    background: green;
+    position: relative;
 }
